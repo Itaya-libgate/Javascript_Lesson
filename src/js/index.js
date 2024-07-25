@@ -3,7 +3,7 @@ let main = 'hello'; // 常に1:1
 console.log(main);
 
 // 定数
-const Second = 'hello2' // 常に1:1
+const Second = 'hello2'; // 常に1:1
 console.log(Second);
 
 // 配列
