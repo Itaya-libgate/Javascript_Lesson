@@ -30,9 +30,9 @@ while(index2 < array.length){
 
 // if else文
 if(array.length > 2){
-    console.log('でたー！')
+    console.log('でたー！');
   } else {
-    console.log('でないー！')
+    console.log('でないー！');
   }
 
 
@@ -46,9 +46,9 @@ test();
 // 関数の例(引数なし)
 const test2 = () => {
   if(array.length > 2){
-    console.log('でたー！')
+    console.log('でたー！');
   } else {
-    console.log('でないー！')
+    console.log('でないー！');
   }
 }
 test2();
@@ -58,9 +58,9 @@ test2();
 // 引数を使用することで、流用が効くようになる。
 const test3 = (arg) => {
   if(array.length > arg){
-    console.log('でたー！')
+    console.log('でたー！');
   } else {
-    console.log('でないー！')
+    console.log('でないー！');
   }
 }
 test3(5);
@@ -84,7 +84,7 @@ console.log(test4.test5());
 
 // documentオブジェクト
 // ブラウザ上のHTML要素を操作するためのオブジェクト
-console.log(document.getElementsByTagName('button'))
+console.log(document.getElementsByTagName('button'));
 
 // eventオブジェクト
 // 何かボタンをクリックしたときに、画面をスクロールしたときなど、ユーザーが何かをしたときに何らかの挙動を追加する際に使うオブジェクト
